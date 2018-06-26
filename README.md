@@ -1,4 +1,4 @@
-# Malath SMS API for PHP via Composer
+# Malath SMS API for PHP Composer
 
 ## Installation
 
@@ -11,21 +11,21 @@ composer require vzool/malath_sms
 ### Add sender
 
 ```php
-$DTT_SMS = new Vzool/Malath/Malath_SMS("", "", 'UTF-8');
+$DTT_SMS = new Vzool/Malath/Malath_SMS($UserName, $Password, 'UTF-8');
 $Send = $DTT_SMS->AddSender($Name);
 ```
 
 ### Check UserName & Password
 
 ```php
-$DTT_SMS    = new Vzool/Malath/Malath_SMS("", "", 'UTF-8');
+$DTT_SMS    = new Vzool/Malath/Malath_SMS($UserName, $Password, 'UTF-8');
 $CheckUser  = $DTT_SMS->CheckUserPassword();
 ```
 
 ### Send SMS
 
 ```php
-$DTT_SMS    = new Vzool/Malath/Malath_SMS("", "", 'UTF-8');
+$DTT_SMS    = new Vzool/Malath/Malath_SMS($UserName, $Password, 'UTF-8');
 $Send = $DTT_SMS->Send_SMS($Mobiles, $Originator, $SMS_Msg);
 ```
 
