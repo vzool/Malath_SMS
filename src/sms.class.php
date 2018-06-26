@@ -142,7 +142,7 @@ class Malath_SMS {
 
 			return $SendReply;
 
-		} catch (Exception $e) {
+		} catch (\Exception $e) {
 			return $e->getMessage();
 		}
 
