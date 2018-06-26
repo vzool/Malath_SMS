@@ -21,7 +21,7 @@ if (isset($_POST['Go'])) {
     $Originator = $_POST['Originator'];
     
     if ($_POST['Text']) {
-        $Send = $DTT_SMS->Send_SMS($Mobiles, $Originator, $SmS_Msg, $CheckUser);
+        $Send = $DTT_SMS->Send_SMS($Mobiles, $Originator, $SmS_Msg);
         echo '<br /><br /><b style="color:#fff">Send Result : </b>';
         echo '<pre>';
         print_r($Send);
