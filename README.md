@@ -8,6 +8,8 @@
 composer require vzool/malath_sms
 ```
 
+**Extension: ext-curl is required.**
+
 ## Usage
 
 ### Add sender
