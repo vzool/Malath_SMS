@@ -182,12 +182,10 @@ Note: must be active your sender name before do any test.
 English:
 
 URL for Single SMS service
-[http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xx](http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xx)
-xxxx&unicode=E&message=test from Malath sms&sender=your sender name here
+[http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xxxxxx&unicode=E&message=test from Malath sms&sender=your sender name here](http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xxxxxx&unicode=E&message=test from Malath sms&sender=your sender name here)
 
 URL for Multiple SMS service
-[http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xx](http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xx)
-xxxx,9665xxxxxx&unicode=E&message= test from Malath sms&sender=your sender name here
+[http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xxxxxx,9665xxxxxx&unicode=E&message= test from Malath sms&sender=your sender name here](http://sms.malath.net.sa/httpSmsProvider.aspx?username=xxxxxx&password=xxxxxx&mobile=9665xxxxxx,9665xxxxxx&unicode=E&message= test from Malath sms&sender=your sender name here)
 
 In this URL for sending on multiple mobile you have to separate with comma(,)
 
