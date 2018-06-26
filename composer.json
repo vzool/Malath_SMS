@@ -1,0 +1,16 @@
+{
+    "name": "vzool/malath_sms",
+    "description": "Malaz SMS PHP API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdelaziz Elrashed",
+            "email": "aeemh.sdn@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "Vzool\\Malath\\": ["src/"] }
+    }
+}
