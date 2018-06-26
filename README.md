@@ -1,5 +1,7 @@
 # Malath SMS API for PHP Composer
 
+[![Malath Logo](https://raw.githubusercontent.com/vzool/Malath_SMS/master/logo.png)](https://sms.malath.net.sa)
+
 ## Installation
 
 ```shell
