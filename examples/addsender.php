@@ -4,7 +4,7 @@
 
 	// Malath_SMS(UserName,Password,PHP File Encode)
 
-	$DTT_SMS = new Malath_SMS("", "", 'UTF-8');
+	$DTT_SMS = new Vzool/Malath/Malath_SMS("", "", 'UTF-8');
 	include('formsender.php');
 	if (isset($_POST['Go'])) {
     $Name = $_POST['Name'];

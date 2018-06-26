@@ -3,7 +3,7 @@ include('sms.class.php');
 
 // Malath_SMS(Username,Password,PHP File Encode)
 
-$DTT_SMS    = new Malath_SMS("", "", 'UTF-8');
+$DTT_SMS    = new Vzool/Malath/Malath_SMS("", "", 'UTF-8');
 $Credits    = $DTT_SMS->GetCredits();
 $SenderName = $DTT_SMS->GetSenders();
 $CheckUser  = $DTT_SMS->CheckUserPassword();
